@@ -1,0 +1,62 @@
+.hover {
+    color: gray !important;
+}
+
+.hide {
+    display: none !important;
+}
+
+body {
+    background-color: steelblue;
+    color: white;
+    font-family: Verdana, Geneva, sans-serif;
+}
+
+#title {
+     text-align: center;
+}
+
+header {
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    color: white;
+}
+
+input, button {
+    border: solid black 3px;
+    border-radius: 10px;
+    font-family: inherit;
+}
+
+#start-btn {
+    padding: 0.75% 4%;
+    text-align: center;
+    display: block;
+    margin: auto;
+}
+
+#display {
+    display: grid;
+    grid-gap: 1px;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+    justify-content: center;
+    padding: 5px;
+}
+
+#display div {
+   margin: 0;
+   padding: 5px;
+   border: solid black 5px;
+   background-color: white;
+   color: black;
+   font-size: 50px;
+   line-height: 85px;
+   text-align: center;
+}
+
+#result {
+    font-size: x-large;
+    text-align: center;
+}
